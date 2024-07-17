@@ -1,15 +1,10 @@
 
-// Definimos una variable para almacenar la pirámide
+// Creo una variable para almacenar la pirámide
 let piramide = '';
-
-// Bucle externo para iterar desde 1 hasta 30
-for (let i = 1; i <= 30; i++) {
-    // Bucle interno para añadir números repetidos según el número de la fila
-    for (let j = 0; j < i; j++) {
-        piramide += i; // Concatenamos el número actual de la fila
+for (let i = 1; i <= 30; i++) { // defino la piramide hasta fila  30 
+        for (let j = 0; j < i; j++) { // incrementmos cantidad de veces por filas 
+        piramide += i; 
     }
-    piramide += '<br>'; // Añadimos un salto de línea en HTML al final de cada fila
+    piramide += '<br>'; 
 }
-
-// Mostramos la pirámide en la página web
 document.write(piramide);
