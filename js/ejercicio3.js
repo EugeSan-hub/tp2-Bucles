@@ -3,21 +3,10 @@
 
 // Nota: usar confirm()
 
-// let cadenaDeTexto = "";
-// do {
-//   let cadena = prompt("Ingrese una cadena de texto");
-//   if (cadenaDeTexto === "") {
-//     cadenaDeTexto = cadenaDeTexto + cadena;
-//   } else {
-//     cadenaDeTexto = totalCadena + "-" + cadena;
-//   }
-// } while (confirm("¿Desea continuar?"));
-
-// document.write(cadenaDeTexto);
 
 let cadenaDeTexto = "";
 do {
-  let cadena = prompt("Ingrese una cadena de texto");
+  let cadena = prompt("Ingrese una palabra");
   if (cadenaDeTexto === "") {
     cadenaDeTexto = cadena;
   } else {
