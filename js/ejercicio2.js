@@ -36,8 +36,8 @@ if (nota >= 0 && nota <= 10) {
             alert("Sobresaliente");
             break;
         default:
-            alert("Número fuera del rango de 0 a 10. Introduce un número válido.");
+            alert("Número erróneo");
     }
 } else {
-    alert("Introduce un número válido del 0 al 10.");
+    document.write("Introduce un número válido del 0 al 10.");
 }
