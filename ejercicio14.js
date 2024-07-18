@@ -11,4 +11,4 @@ for (let i = 0; i < texto.length; i++) {
   if (i < texto.length - 1) {
     textoConGuiones += "-";}
 }
-alert("El texto con guiones es: " + textoConGuiones);
+document.write("El texto con guiones es: " + textoConGuiones);
