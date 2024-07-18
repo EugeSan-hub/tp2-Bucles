@@ -23,6 +23,5 @@ if (edadMayor === edad1) {
 } else {
     nombreMayor = nombre3;
 }
-
 // Mostramos el nombre de la persona mayor
 alert("La persona con mayor edad es: " + nombreMayor);
